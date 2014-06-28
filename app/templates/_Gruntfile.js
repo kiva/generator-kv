@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 					banner: '<%%= meta.banner %>'
 				}
 				, files: {
-					// @todo for now, <filename> will need to be set manually
+					// @todo %manually-configure% for now, <filename> will need to be set manually
 					'<%%= dist %>/iife/<filename>': ['build/_iife.js']
 					, '<%%= dist %>/amd/<filename>': ['build/_amd.js']
 				}
@@ -56,7 +56,7 @@ module.exports = function(grunt) {
 				options: {
 					banner: '<%%= meta.banner %>'
 				}
-				// @todo for now, <filename> will need to be set manually
+				// @todo %manually-configure% for now, <filename> will need to be set manually
 				, files: {
 					'<%%= dist %>/iife/<filename>.min.js': ['<%%= dist %>/iife<filename>.js']
 					, '<%%= dist %>/amd/<filename>.min.js': ['<%%= dist %>/amd/<filename>.js']

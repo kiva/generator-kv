@@ -22,7 +22,7 @@ var KvGenerator = yeoman.generators.Base.extend({
 	askFor: function () {
 		var done = this.async();
 
-        this.log(yosay('Welcome to the maauvoulous Kv generator.'));
+        this.log(yosay('Welcome to the maauvoulous Kv generator!'));
 
         var prompts = [{
 	        name: 'libname',
@@ -61,6 +61,7 @@ var KvGenerator = yeoman.generators.Base.extend({
 		this.copy('_license.txt', 'license.txt');
 		this.copy('_package.json', 'package.json');
 		this.copy('_readme.md', 'readme.md');
+		this.copy('_travis.yml', '.travis.yml');
 	},
 
 

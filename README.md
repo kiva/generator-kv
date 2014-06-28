@@ -36,6 +36,8 @@ Finally, initiate the generator:
 $ yo kv
 ```
 
+Once Yeoman is done doing his things, search for the string, "%manually-configure%" in your new library and update as necessary.
+
 ### Getting To Know Yeoman
 
 Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.

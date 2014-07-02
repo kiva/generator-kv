@@ -27,7 +27,7 @@ Yeoman travels light. He didn't pack any generators when he moved in. You can th
 To install generator-kv from npm, run:
 
 ```bash
-$ npm install -g generator-kv
+$ npm install -g git+https://github.com/kiva/generator-kv.git
 ```
 
 Finally, initiate the generator:

@@ -54,6 +54,7 @@ var KvGenerator = yeoman.generators.Base.extend({
 		this.directory('demo');
 		this.directory('src');
 		this.directory('test');
+		this.directory('dist');
 
 		this.copy('_bower.json', 'bower.json');
 		this.copy('_contributing.md', 'contributing.md');

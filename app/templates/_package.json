@@ -1,16 +1,16 @@
 {
   "name": "<%= _.slugify(libname) %>",
   "version": "0.0.0",
-  "repository": "htt://github.com/kiva/<%= _.slugify(libname) %>",
+  "repository": "http://github.com/kiva/<%= _.slugify(libname) %>",
   "licenses": [
     {
 	  "type" : "MIT",
-	  "url" : "htt://github.com/kiva/<%= _.slugify(libname) %>/license.txt"
+	  "url" : "http://github.com/kiva/<%= _.slugify(libname) %>/license.txt"
     }
   ],
   "scripts": {
 	"test": "grunt test --verbose",
-    "prepublish": "bower install  && git ls-files -z dist/ | xargs -0 git update-index --assume-unchanged"
+    "prepublish": "bower install  && git init"
   },
   "dependencies": {},
   "devDependencies": {
@@ -22,6 +22,7 @@
 	"grunt-buster": "0.3.1",
 	"grunt-contrib-jshint": "0.10.0",
 	"grunt-contrib-uglify": "~0.5.0",
-	"grunt-rigger": "0.6.0"
+	"grunt-rigger": "0.6.0",
+	"grunt-shell": "0.7.0"
   }
 }
